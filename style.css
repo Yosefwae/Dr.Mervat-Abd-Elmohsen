@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(135deg, #4b6cb7 0%, #6b3fa0 100%);
-  color: #333;
+  color: #1a3e72; 
   background-attachment: fixed;
 }
 
@@ -79,7 +79,7 @@ section {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
-  color: #1a3e72; /* لون النص الأزرق */
+  color: inherit; 
 }
 
 section:hover {
@@ -87,7 +87,7 @@ section:hover {
 }
 
 .section h2, .about h2 {
-  color: #2a52be; /* لون العناوين الأزرق */
+  color: #2a52be;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -101,7 +101,6 @@ ul li {
   line-height: 1.6;
 }
 
-/* تعديلات النافبار للجوال */
 @media (max-width: 768px) {
   .navbar {
     overflow-x: auto;
